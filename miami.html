@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet " href="style.css">
+    <title>API 3rdParty</title>
+</head>
+<body>
+   <header class="jumbotron .ml-auto" style="border-bottom: 10px solid; border-color:  rgb(63, 122, 190);">
+       <h1>The Weather App</h1>
+   </header>
+   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" style= "color:  rgb(63, 122, 190);" ; href="api.html">Atlanta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: rgb(63, 122, 190);" href="houston.html">Houston</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:  rgb(63, 122, 190);" href="miami.html">Miami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:  rgb(63, 122, 190);" href="london.html">London</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:  rgb(63, 122, 190);" href="anchorage.html">Anchorage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:  rgb(63, 122, 190);" href="philly.html">Philadelphia</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <div class="photo">
+    <img src=https://cdn.givingcompass.org/wp-content/uploads/2019/12/02081412/Climate-Change-and-the-New-Language-of-Weather-800x450.jpg>
+   </div>
+   <!-- API Retrieved Data Will Dump Here -->
+        <main class="main">
+            <div class="city"></div>
+            <div class="tempF"></div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
+            <div class="feel"></div>
+        </main>
+
+    <!-- jQuery, Popper.js Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="miami.js"></script>
+</body>
+</html>
